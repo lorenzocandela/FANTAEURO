@@ -1,0 +1,475 @@
+body, html {
+    margin: 0px !important;
+}
+
+/*___*/
+
+.goal {
+    font-size: 13px;
+    font-family: 'CabinetGrotesk-Medium';
+    text-transform: capitalize;
+}
+
+.back {
+    width: 23px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30px;
+    opacity: .9;
+}
+
+.initial-logo {
+    width: 85%;
+    margin: 5px;
+    box-shadow: 0 5px 7px 0 rgb(0 0 0 / 24%), 0 12px 29px 0 rgb(0 0 0 / 12%);
+    border-radius: 50%;
+    transition: .3s;
+}
+.initial-logo:hover {
+    transform: scale(1.1);
+}
+
+.initial-box {
+    display: inline-flex;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/*___*/
+
+.banner-logo {
+    width: 30%;
+    margin-top: -463px;
+    box-shadow: 0 5px 7px 0 rgb(0 0 0 / 24%), 0 12px 29px 0 rgb(0 0 0 / 12%);
+    border-radius: 50%;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: -70px;
+}
+
+/*___*/
+
+.player-cap, .player, .vice-player-cap  {
+    font-family: 'CabinetGrotesk-Bold';
+    color: #565555;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 3px 15px;
+    margin: 0 1px;
+}
+
+.player-cap {
+    font-family: 'CabinetGrotesk-Bold';
+    font-size: 13px;
+    padding: 2px 10px;
+    background: #ff07071f;
+    border-radius: 30px;
+    color: #b91616;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.vice-player-cap {
+    font-family: 'CabinetGrotesk-Bold';
+    font-size: 13px;
+    padding: 2px 10px;
+    background: #cbab0b1f;
+    border-radius: 30px;
+    color: #c3b007;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.player {
+    border: solid 1px #56555538;
+    background: #faf9f9;
+}
+
+.box-player {
+    margin-top: -80px;
+}
+
+.second-row {
+    margin-top: 12px;
+}
+
+/*___*/
+
+.match {
+    width: 100% !important;
+    margin-top: -110px !important;
+    margin-bottom: 25px !important;
+}
+
+.second-match {
+    width: 80%;
+    margin-top: 10px;
+}
+
+/*___*/
+
+.box-high, .box-high-player, .box-high-ass {
+    text-align: left;
+    margin: 15px 40px;
+    /* background: #8a7bc71f; */
+    border-radius: 20px;
+    padding: 50px 10px;
+    /* box-shadow: 0 5px 7px 0 rgba(64, 249, 255, 0.05), 0 12px 29px 0 rgba(15, 71, 213, 0.03); */
+}
+
+.box-high {
+    margin-top: 40px;
+}
+
+.box-high-ass {
+    box-shadow: 0 5px 7px 0 rgba(64, 255, 252, 0.05), 0 12px 29px 0 rgba(15, 213, 150, 0.03);
+    background: #91ada71f;
+    margin-bottom: 150px;
+}
+
+.box-high-player {
+    box-shadow: 0 5px 7px 0 rgb(255 108 64 / 5%), 0 12px 29px 0 rgb(213 15 61 / 3%);
+    background: #c77b7b1f;
+}
+
+.title-high {
+    font-family: 'CabinetGrotesk-Black';
+    color: #222222;
+    font-size: 35px;
+}
+
+.title-high-reg {
+    font-family: 'CabinetGrotesk-Regular';
+    color: #222222;
+    font-size: 25px;
+}
+
+.title-high-reg .title-high {
+    font-size: 25px;
+}
+
+.punti {
+    font-family: 'CabinetGrotesk-Black';
+    color: #222222;
+    font-size: 20px;
+}
+
+.squadra-top {
+    font-family: 'CabinetGrotesk-Bold';
+    color: #222222;
+    font-size: 18px;
+}
+
+.squadra {
+    font-family: 'CabinetGrotesk-Regular';
+    color: #222222;
+    font-size: 18px;
+}
+
+.pos, .pos-active, .pos-last {
+    display: flex;
+    border-radius: 100px;
+    justify-content: space-between;
+    padding: 5px 15px;
+    margin-top: 5px;
+    border-radius: 100px;
+}
+
+.pos {
+    background: #ed8b0059;
+}
+
+.pos:nth-last-child(-n+2) {
+    background: #ffd93f63;
+}
+
+.pos:first-child {
+    background: #d700004d !important;
+    margin-top: 15px;
+    transform: scale(1.07);
+}
+.pos:first-child .squadra {
+    font-family: 'CabinetGrotesk-Extrabold';
+}
+.pos:nth-child(2) {
+    transform: scale(1.04);
+    margin-top: 6px;
+}
+.pos:nth-child(4) {
+    transform: scale(0.98);
+    margin-top: 4px;
+
+}
+.pos:nth-child(5) {
+    transform: scale(0.94);
+    margin-top: 3px;
+}
+.pos:nth-child(6) {
+    transform: scale(0.92);
+    margin-top: 2px;
+}
+.pos:nth-child(7) {
+    transform: scale(0.9);
+    margin-top: 2px;
+}
+.pos:nth-child(8) {
+    transform: scale(0.9);
+    margin-top: 2px;
+}
+
+.collegamento {
+    font-family: 'CabinetGrotesk-Bold';
+    color: #000;
+    font-size: 25px;
+    margin: 70px;
+    display: block;
+}
+
+/*___*/
+
+.intro {
+    font-family: 'CabinetGrotesk-Regular';
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.intro-box {
+    font-size: 11px;
+    width: 320px;
+    display: inline-flex;
+}
+
+/*___*/
+
+.p-img {
+    width: 80px;
+    padding: 5px;
+}
+
+/*___*/
+
+.single-player {
+    align-items: center;
+    padding: 10px;
+    background: #0000000a;
+    width: 300px;
+    border-radius: 100px;
+    margin: 5px 0;
+    display: inline-flex;
+}
+.first .single-player:first-child {
+    width: 250px;
+}
+
+
+.player-info {
+    padding-left: 10px;
+}
+.name-player {
+    font-family: 'CabinetGrotesk-ExtraBold';
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #000;
+}
+.role-player {
+    font-family: 'CabinetGrotesk-Bold';
+    font-size: 13px;
+    padding: 2px 10px;
+    background: #0000001f;
+    border-radius: 30px;
+    color: #717171;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.role-player-naz {
+    font-family: 'CabinetGrotesk-Bold';
+    font-size: 13px;
+    padding: 2px 10px;
+    background: #3ec5121f;
+    border-radius: 30px;
+    color: #4caf50;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+
+.role-player-active {
+    font-family: 'CabinetGrotesk-Bold';
+    font-size: 13px;
+    padding: 2px 10px;
+    background: #c322221f;
+    border-radius: 30px;
+    color: #cb3939;
+    margin-right: 5px;
+}
+
+hr {
+    background: #000;
+    margin: 20px 0px;
+    opacity: .2;
+}
+
+.info-extra {
+    display: inline-grid;
+    margin: 5px 0;
+}
+
+.single-extra {
+    align-items: flex-start !important;
+    padding: 0px;
+    width: 300px;
+    border-radius: 100px;
+    margin: 18px 0;
+    display: inline-flex !important;
+    flex-wrap: nowrap !important;
+    flex-direction: column !important;
+
+}
+
+.stats {
+    font-size: 20px;
+}
+
+.low {
+    background: #c125251f;
+    width: 20px;
+    color: #ad1c1c;
+}
+.mid {
+    background: #afc4231f;
+    width: 90px;
+    color: #bfbc41;
+}
+.good {
+    background: #25c1171f;
+    width: 170px;
+    color: #2bb323;
+}
+
+.too-g {
+    background: #06c6601f;
+    width: 230px;
+    color: #1c9615;
+}
+
+/*___*/
+
+@media screen and  (min-width: 410px) {
+    .player-cap, .player {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .box-player {
+        margin-top: -55px;
+    }
+    .player-cap, .player {
+        font-size: 15px;
+    }
+    .back {
+        width: 20px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .box-high, .box-high-player, .box-high-ass {
+        margin: 15px 20px;
+    }
+}
+
+
+.banner-giornate {
+    width: 86%;
+    padding-bottom: 10px;
+}
+
+
+.title-squadra {
+    margin-top: -103px;
+    font-size: 35px;
+    position: static;
+    color: black;
+    text-align: left;
+    padding-left: 35px;
+    font-family: 'CabinetGrotesk-Extrabold';
+    margin-bottom: -7px;
+}
+
+.nazione-img-ind {
+    width: 105px;
+    margin: 5px;
+    border: solid 3px #1433d126;
+    border-radius: 60%;
+    
+}
+.nazioni-container {
+    margin-top: -90px;
+    margin-bottom: 100px;
+    padding: 20px 30px;
+}
+
+.div-att {
+    background-color: #0a19cf0f;
+}
+.div-cen {
+    background-color: #038f140f;
+}
+.div-dif {
+    background-color: #cfc00a0f;
+}
+
+.div-att > .player-info > .role-player {
+    color: #543a91;
+    background: #0a19cf1f;
+    opacity: 0.75;
+    margin-right: 0;
+}
+
+.div-cen > .player-info > .role-player {
+    background: #c3edc0;
+    color: #0d7f12;
+    opacity: 0.75;
+    margin-right: 0;
+}
+
+.div-dif > .player-info > .role-player {
+    background: #cfc00a36;
+    color: #c5c115;
+    opacity: 0.75;
+    margin-right: 0;
+}
+
+.banner-giornate {
+    width: 86%;
+    padding-bottom: 10px;
+}
+
+
+.title-squadra {
+    margin-top: -103px;
+    font-size: 35px;
+    position: static;
+    color: black;
+    text-align: left;
+    padding-left: 35px;
+    font-family: 'CabinetGrotesk-Extrabold';
+    margin-bottom: -7px;
+}
+
+.nazione-img-ind {
+    width: 105px;
+    margin: 5px;
+    border: solid 3px #1433d126;
+    border-radius: 60%;
+    
+}
+.nazioni-container {
+    margin-top: -90px;
+    margin-bottom: 100px;
+    padding: 20px 30px;
+}
