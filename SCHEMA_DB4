@@ -1,0 +1,53 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.2
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:3306
+-- Creato il: Mar 24, 2025 alle 23:25
+-- Versione del server: 10.6.21-MariaDB-cll-lve-log
+-- Versione PHP: 8.3.19
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `veytkbae_wp885`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Struttura della tabella `classifica_lega`
+--
+
+CREATE TABLE `classifica_lega` (
+  `nome` varchar(255) NOT NULL,
+  `punti` int(11) NOT NULL,
+  `punti_totali` float NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci;
+
+--
+-- Dump dei dati per la tabella `classifica_lega`
+--
+
+INSERT INTO `classifica_lega` (`nome`, `punti`, `punti_totali`) VALUES
+('Gyatito Loco', 12, 315.5),
+('Karim Nueve CF', 9, 256.5),
+('Usa e Getta', 7, 318),
+('FORMIGANG', 18, 325.5),
+('Intesa Sau Paulo', 5, 291.5),
+('Arbeicht Macht Frei', 12, 292.5),
+('MafiaBoys', 7, 254),
+('FAT RAT', 12, 306.5);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
