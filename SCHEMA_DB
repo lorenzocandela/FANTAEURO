@@ -1,0 +1,87 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.2
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:3306
+-- Creato il: Mar 24, 2025 alle 23:25
+-- Versione del server: 10.6.21-MariaDB-cll-lve-log
+-- Versione PHP: 8.3.19
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `veytkbae_wp885`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Struttura della tabella `matchup`
+--
+
+CREATE TABLE `matchup` (
+  `id` int(255) NOT NULL,
+  `giornata` int(255) NOT NULL,
+  `id_utente_1` int(255) NOT NULL,
+  `id_utente_2` int(255) NOT NULL,
+  `score_1` float NOT NULL,
+  `score_2` float NOT NULL,
+  `nome_team` varchar(255) NOT NULL,
+  `correlato` varchar(255) NOT NULL,
+  `id_chiave` int(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci;
+
+--
+-- Dump dei dati per la tabella `matchup`
+--
+
+INSERT INTO `matchup` (`id`, `giornata`, `id_utente_1`, `id_utente_2`, `score_1`, `score_2`, `nome_team`, `correlato`, `id_chiave`) VALUES
+(1, 1, 5, 7, 0, 0, '', '', 999),
+(2, 1, 1, 0, 0, 0, '', '', 999),
+(3, 1, 2, 3, 0, 0, '', '', 999),
+(4, 1, 6, 4, 0, 0, '', '', 999),
+(5, 2, 6, 5, 0, 0, '', '', 999),
+(6, 2, 4, 2, 0, 0, '', '', 999),
+(7, 2, 3, 1, 0, 0, '', '', 999),
+(8, 2, 7, 0, 0, 0, '', '', 999),
+(9, 3, 5, 3, 73, 76, '', '', 999),
+(10, 3, 0, 4, 82.5, 72, '', '', 999),
+(11, 3, 7, 6, 66.5, 0, '', '', 999),
+(12, 3, 1, 2, 81.5, 72.5, '', '', 999),
+(13, 4, 0, 5, 92.5, 87, '', '', 999),
+(14, 4, 3, 7, 61.5, 91.5, '', '', 999),
+(15, 4, 4, 1, 92, 87.5, '', '', 999),
+(16, 4, 2, 6, 75, 75, '', '', 999),
+(17, 5, 5, 2, 37.5, 37.5, '', '', 999),
+(18, 5, 6, 1, 33.5, 34, '', '', 999),
+(19, 5, 4, 7, 41.5, 44, '', '', 999),
+(20, 5, 3, 0, 39.5, 31, '', '', 999),
+(21, 6, 1, 5, 32, 26.5, '', '', 999),
+(22, 6, 7, 2, 46, 29, '', '', 999),
+(23, 6, 0, 6, 33.5, 34.5, '', '', 999),
+(24, 6, 3, 4, 38.5, 32, '', '', 999),
+(25, 7, 5, 4, 0, 17, '', '', 999),
+(27, 7, 2, 0, 0, 5.5, '', '', 999),
+(28, 7, 7, 1, 47, 27.5, '', '', 999),
+(26, 7, 6, 3, 0, 29, '', '', 999),
+(999, 0, 0, 0, 0, 0, 'Karim Nueve CF', 'coda', 0),
+(999, 0, 0, 0, 0, 0, 'Intesa Sau Paulo', 'lollo', 2),
+(999, 0, 0, 0, 0, 0, 'Arbeit Macht Frei', 'mirko', 4),
+(999, 0, 0, 0, 0, 0, 'FORMIGANG', 'formi', 3),
+(999, 0, 0, 0, 0, 0, 'Gyatito Loco', 'aqui', 1),
+(999, 0, 0, 0, 0, 0, 'Usa e Getta', 'fra', 5),
+(999, 0, 0, 0, 0, 0, 'MafiaBoys', 'tota', 6),
+(999, 0, 0, 0, 0, 0, 'FAT RAT', 'pol', 7);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
